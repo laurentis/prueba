@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:laurentis:prueba:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:laurentis:prueba:main#{A unique ID for this verification method}",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n":"ru7-5XMuqn1ANbSLyY4xqtlFxLQPZAYaSEqbnaaBv-dqw0KcvsG6tnHRQj-2lPMw8fMm0O4Rxy8nObs3ib5AJGbSVX0gEzB4Q-RMHv02BWOjhZil7NYYuH4jTCkq8hmZZL8do__AmgfAa6DDhEIeGivBdEff3Yam7BBIunAMuVyZvh0LCLnJx4FeHL3O5pzLnrEtLQ38DJRtCabDPH6cWFa_33mHUMGxK8YYWQhlPyXo52LQ-ziNJZFYpvN5SZjTl75tr-N6xnPL1vy-mttHNpsCXG5D0H4ZtJ4GEFf4KMFNY17Dp-LAicc4EN6xKQ2RqK1yaFp0waBKZppjcOSNnQ",
+        "e":"AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/laurentis:prueba:main/public_key.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:laurentis:prueba:main#{A unique ID for this verification method}"
+  ]
+}
