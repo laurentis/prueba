@@ -6,7 +6,7 @@
   "id": "did:web:raw.githubusercontent.com:laurentis:prueba:main",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:laurentis:prueba:main#123456",
+      "id": "did:web:raw.githubusercontent.com:laurentis:prueba:main#X509-JWK",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "RSA",
