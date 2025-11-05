@@ -10,14 +10,14 @@
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n":"ru7-5XMuqn1ANbSLyY4xqtlFxLQPZAYaSEqbnaaBv-dqw0KcvsG6tnHRQj-2lPMw8fMm0O4Rxy8nObs3ib5AJGbSVX0gEzB4Q-RMHv02BWOjhZil7NYYuH4jTCkq8hmZZL8do__AmgfAa6DDhEIeGivBdEff3Yam7BBIunAMuVyZvh0LCLnJx4FeHL3O5pzLnrEtLQ38DJRtCabDPH6cWFa_33mHUMGxK8YYWQhlPyXo52LQ-ziNJZFYpvN5SZjTl75tr-N6xnPL1vy-mttHNpsCXG5D0H4ZtJ4GEFf4KMFNY17Dp-LAicc4EN6xKQ2RqK1yaFp0waBKZppjcOSNnQ",
+        "n":"wFg44UGo-DRQ4GZVP2uz2CFdHPVBnpYGAhvlwhC0-SHCJ5e3hWV3D1icI9ZtOIDyHc3fTpyL8gIsoJQGwl29DET4yk0nZ2lWtH8bXjkI3LXwhfnX-QU8ir8zMfzOoSGsn90_liS1cOy_n5D7HYoR_mzqdZWsCgcTg1CjNMVIokuq4wS7ajGx_ERZ7nD-Dc9rmtfEJNy37bVmlnszjQzdrcXK_sfu3s1Qa-l-v2Mun--dqoVCZsU8b39WHCh0pwzFc2FfgYmmyidGDPjRjPU7Abe3XKEX5P2bF_MPbDL5sC8s-GO-EzJvcbH4SI5GPnz80Plurg0CUKxJ9AaahWc_Jw",
         "e":"AQAB",
         "alg": "RS256",
-        "x5u": "https://raw.githubusercontent.com/laurentis:prueba:main/public_key.pem"
+        "x5u": "https://raw.githubusercontent.com/laurentis:prueba:main/cert.pem"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com:laurentis:prueba:main#{A unique ID for this verification method}"
+    "did:web:raw.githubusercontent.com:laurentis:prueba:main#X509-JWK"
   ]
 }
